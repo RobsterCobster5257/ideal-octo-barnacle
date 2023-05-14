@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- Another amazing website by Bill (v2) -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+    </style>
+    <script src="js/js.js"></script>
+    <title>Meat Table - Meaters</title>
+</head>
+
+<body onload="todaysDate()">
+<div class="navflexcontainer">
+    <div class="navflexitem"><a href="index.html" class="navflexlink">Home</a></div>
+    <div class="navflexitem"><a href="table.html" class="navflexlink">Table</a></div>
+    <div class="navflexitem"><a href="images.html" class="navflexlink">Images</a></div>
+    <div class="navflexitem"><a href="form.html" class="navflexlink">Form</a></div>
+    <div class="navflexitem navflexspace">&nbsp;</div>
+    <div class="navflexitem"><a href="options.html" class="navflexlink">Options</a></div>
+    <div class="navflexitem"><a href="logout.html" class="navflexlink">Logout</a></div>
+</div>
+<div class="maincontainer">
+<h1>Meat Table</h1>
+<p>Meats of the world.</p>
+<button class="button-53" onclick="styleTable()">Change Table</button>
+<div class="tablestyle">
+  <table id="my-table">
+    <tr>
+      <th colspan="5">Tastiness Index</th>
+    </tr>
+    <tr>
+      <td rowspan="6">Meats</td>
+      <th>Name</th>
+      <th>Form</th>
+      <th>Cost (1-5)</th>
+      <th>Tastiness (1-5)</th>
+    </tr>
+    
+    <tr>
+      
+      <td>Bacon</td>
+      
+      <td>strips</td>
+      
+      <td>3</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Cretons</td>
+      
+      <td>paste</td>
+      
+      <td>2</td>
+      
+      <td>5</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Prime Rib</td>
+      
+      <td>slab</td>
+      
+      <td>5</td>
+      
+      <td>5</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Ham</td>
+      
+      <td>slab</td>
+      
+      <td>3</td>
+      
+      <td>3</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Chicken</td>
+      
+      <td>various</td>
+      
+      <td>4</td>
+      
+      <td>2</td>
+      
+    </tr>
+    
+  </table>
+</div>
+</div>
+<footer>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank"><img src="img/facebook.webp" alt="facebook"></a>
+        <a href="https://twitter.com" target="_blank"><img src="img/twitter.webp" alt="twitter"></a>
+    </div>
+
+    <div class="footercontainer">
+        <p>Contact: <a href="mailto:whughes@sl.on.ca">WHughes@sl.on.ca</a></p>
+        <p>Today is: <span id = "todaysDate"></span></p>
+        <p>&copy; 2023 Weehooey Inc.</p>
+    </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body
+ {
+  background-image: url("images/Background.gif");
+ }
+ 
+ nav{
+    border: 5px outset red;
+    background-color: white;
+    Text-align: center;
+  }
+h1
+{
+ font-family: cursive;
+  font-style: oblique;
+  color: rgb(4, 8, 15);
+     border: 1px hidden;
+        width: 600px;
+        animation: mymove 0s infinite;
+      }
+      @keyframes mymove {
+        50% {font-size: 50px;}
+      }
+    a:link 
+    {
+      color:rgb(96, 175, 240);
+      
+    }
+    a:visited 
+    {
+      color:rgb(176, 119, 230);
+
+    }
+    a:hover 
+    {
+      color:rgb(11, 255, 32);
+      background-color: tomato;
+
+    }
